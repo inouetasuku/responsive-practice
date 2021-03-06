@@ -55,17 +55,15 @@
 .flex__box1,.flex__box2,.display-box {
   flex-direction: row;
   display: flex;
-}
-.text__box {
-  display: table;
   text-align: center;
 }
 li {
   width: 300px;
   height: 300px;
+  display: flex;
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
 }
 li:first-child {
   margin-left: auto;
@@ -177,16 +175,13 @@ li:last-child {
   flex-direction: row-reverse;
   text-align: center;
 }
-.text__box {
-  display: table;
-  text-align: center;
-}
 li {
   width: 300px;
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
 }
 li:first-child {
   margin-left: auto;
